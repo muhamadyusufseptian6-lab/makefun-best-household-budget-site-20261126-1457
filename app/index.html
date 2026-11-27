@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="HomeLedger — one household's whole budget in one place: income, spending, bills, plans, goals and the habits that keep them working. Runs offline from its own files.">
+  <title>HomeLedger — Household Budget, Kept in One Place</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/">Home<em>Ledger</em></a>
+      <p class="header-tag">The Rivera household's budget — November 2026</p>
+    </div>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation"></nav>
+  </header>
+
+  <main class="wrap" id="app" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p>HomeLedger — a household budget site that runs entirely offline.
+    Your numbers are saved only in this browser, on this device.</p>
+    <p>Sample data: the Rivera household is fictional; every figure on this site is invented for demonstration.</p>
+    <button class="btn" data-action="reset-demo" type="button">Reset demo data</button>
+    <p>© <span id="year">2026</span> HomeLedger. Made for families who want to know where the money went.</p>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
